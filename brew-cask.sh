@@ -13,9 +13,7 @@ brew tap caskroom/versions
 brew cask install spectacle
 brew cask install dropbox
 brew cask install lastpass
+brew cask install caffeine
 
 # dev
 brew cask install atom
-
-# less often
-brew cask install utorrent
