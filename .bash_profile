@@ -6,6 +6,10 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
 done
 unset file
 
+# Setup locale
+export LC_CTYPE=sv_SE.UTF-8
+export LC_ALL=sv_SE.UTF-8
+
 # Don't record some commands
 export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history:clear"
 
