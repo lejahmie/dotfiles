@@ -13,6 +13,7 @@ All scripts can be executed on their own.
 | brew.sh         | Installs Homebrew and stnadrad packages                   |
 | brew-bask.sh    | Installs native apps via Homebrew                         |
 | npm.sh          | Installs global NPM packages                              |
+| atom.sh         | Configs and installs packages for Atom                    |
 | composer.sh     | Installs Composer and global packages                     |
 | macos.sh        | Setup sensible macOS defaults                             |
 
@@ -41,7 +42,7 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
-### After scripts
+### Extra
 
 #### brew.sh
 
@@ -57,6 +58,14 @@ chsh -s /usr/local/bin/bash
 ```
 
 *More info can be found at http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/*
+
+### atom.sh
+
+Easy way to update atom packages.list file;
+```
+ls ~/.atom/packages/ > packages.list
+```
+
 
 ## Credz
 

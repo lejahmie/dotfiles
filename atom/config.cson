@@ -1,0 +1,9 @@
+"*":
+  core: {}
+  editor:
+    showIndentGuide: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "6f1683bb-db81-4d9f-b41f-f6c146ef7cdd"
+  welcome:
+    showOnStartup: false

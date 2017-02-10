@@ -1,0 +1,6 @@
+atom-beautify
+linter
+linter-jscs
+linter-jshint
+linter-sass-lint
+linter-scss-lint
