@@ -28,3 +28,6 @@ fi
 
 # Use Generic Colouriser
 . /usr/local/etc/grc.bashrc
+
+# Set default editor
+export EDITOR=vim
