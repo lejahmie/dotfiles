@@ -52,5 +52,8 @@ brew install node # This installs `npm` too using the recommended installation m
 brew install rename
 brew install ffmpeg --with-libvpx
 
+# Extra
+brew install lastpass-cli --with-pinentry --with-doc
+
 # Remove outdated versions from the cellar
 brew cleanup

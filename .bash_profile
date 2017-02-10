@@ -11,3 +11,11 @@ export HISTIGNORE="&:[ ]*:exit:ls:bg:fg:history:clear"
 
 # Save multi-line commands as one command
 shopt -s cmdhist
+
+# Use Bash completion
+if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
+  . $(brew --prefix)/share/bash-completion/bash_completion
+fi
+
+# Use Generic Colouriser
+. /usr/local/etc/grc.bashrc
