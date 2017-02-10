@@ -5,16 +5,19 @@
 
 
 # Install native apps
-
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
-# daily
+# Productivity
 brew cask install spectacle
 brew cask install dropbox
 brew cask install lastpass
 brew cask install caffeine
 brew cask install onyx
+brew cask install macdown
+brew cask install slack
 
-# dev
+# Dev
 brew cask install atom
+brew cask install robomongo
+brew cask install sequel-pro
