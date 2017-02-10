@@ -4,3 +4,12 @@ linter-jscs
 linter-jshint
 linter-sass-lint
 linter-scss-lint
+linter-jsonlint
+pretty-json
+markdown-scroll-sync
+markdown-writer
+docblockr
+javascript-snippets
+autocomplete-modules
+autocomplete-paths
+git-blame
