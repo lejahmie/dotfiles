@@ -21,7 +21,7 @@ if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
   . $(brew --prefix)/share/bash-completion/bash_completion
 fi
 
-# Use Git tab completion (homebrew)
+# Use Git completion (homebrew)
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
     . `brew --prefix`/etc/bash_completion.d/git-completion.bash
 fi
@@ -31,3 +31,6 @@ fi
 
 # Set default editor
 export EDITOR=vim
+
+# Add Homebrew sbin
+export PATH="/usr/local/sbin:$PATH"

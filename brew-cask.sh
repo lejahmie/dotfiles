@@ -21,3 +21,4 @@ brew cask install slack
 brew cask install atom
 brew cask install robomongo
 brew cask install sequel-pro
+brew cask install docker
