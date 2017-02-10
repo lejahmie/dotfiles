@@ -61,3 +61,6 @@
 	prune = true
 [diff]
 	compactionHeuristic = true
+[user]
+	name = Jamie
+	email = jamie.telin@gmail.com
