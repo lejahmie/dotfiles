@@ -59,7 +59,7 @@ chsh -s /usr/local/bin/bash
 
 *More info can be found at http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/*
 
-### atom.sh
+#### atom.sh
 
 Easy way to update atom packages.list file;
 ```
