@@ -1,3 +1,3 @@
 #!/bin/bash
-apm install --package-file atom/packages.list
 cp atom/* ~/.atom/
+apm install -c --packages-file ~/.atom/packages.list

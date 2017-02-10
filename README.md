@@ -63,7 +63,7 @@ chsh -s /usr/local/bin/bash
 
 Easy way to update atom packages.list file;
 ```
-ls ~/.atom/packages/ > packages.list
+apm list -p -i -b > atom/packages.list
 ```
 
 
