@@ -14,6 +14,7 @@ brew cask install spectacle
 brew cask install dropbox
 brew cask install lastpass
 brew cask install caffeine
+brew cask install onyx
 
 # dev
 brew cask install atom
