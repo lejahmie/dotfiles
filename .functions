@@ -234,3 +234,22 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# `v` with no arguments opens the current directory in Vim, otherwise opens the
+# given location
+function gittag() {
+	if [ $# -eq 0 ]; then
+		echo "Please add a version number such as 1.0.1"
+	else
+		git tag -a "v$@" -m "Version $@"
+    echo "Created tag v$@"
+	fi;
+}
+function gittagdel() {
+	if [ $# -eq 0 ]; then
+		echo "Please add a version number such as 1.0.1"
+	else
+		git tag -d "v$@"
+    echo "Deleted tag v$@"
+	fi;
+}
