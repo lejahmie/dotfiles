@@ -64,6 +64,8 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 # Show all hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
+# SHow hidden files also in open dialogs
+defaults write -g AppleShowAllFiles -bool true
 
 # Show the ~/Library folder
 chflags nohidden $HOME/Library
