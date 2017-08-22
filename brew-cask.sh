@@ -18,7 +18,7 @@ brew cask install macdown
 brew cask install slack
 
 # Dev
-brew cask install atom
+brew cask install visual-studio-code
 brew cask install robomongo
 brew cask install sequel-pro
 brew cask install docker
